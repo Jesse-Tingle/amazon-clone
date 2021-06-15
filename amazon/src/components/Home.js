@@ -38,13 +38,13 @@ function Home() {
 						title="Paliston Locking Carabiner"
 						price={32.99}
 						image="https://images-na.ssl-images-amazon.com/images/I/61CxSSWyqPL._AC_SL1001_.jpg"
-						rating={5}
+						rating={4}
 					/>
 					<Product
 						title="All-new Echo Dot (4th Gen, 2020 release)"
 						price={44.99}
 						image="https://images-na.ssl-images-amazon.com/images/I/61HK5umZg0L._AC_SL1000_.jpg"
-						rating={5}
+						rating={1}
 					/>
 				</div>
 
