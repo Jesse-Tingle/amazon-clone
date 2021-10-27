@@ -14,13 +14,13 @@ function Home() {
 
 				<div className="home__row">
 					<Product
-						title="The Lean Startup"
+						title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses"
 						price={29.99}
 						image="https://m.media-amazon.com/images/P/B004J4XGN6.01._SCLZZZZZZZ_SX500_.jpg"
 						rating={5}
 					/>
 					<Product
-						title="The Whole Brain Child"
+						title="The Whole-Brain Child: 12 Proven Strategies to Nurture Your Child's Developing Mind"
 						price={10.76}
 						image="https://m.media-amazon.com/images/P/0553386697.01._SCLZZZZZZZ_SX500_.jpg"
 						rating={5}
@@ -29,13 +29,13 @@ function Home() {
 
 				<div className="home__row">
 					<Product
-						title="Jarrow Formulas Methyl B-12 5000 mcg"
+						title="Jarrow Formulas Methyl B-12 5000 mcg - 60 Chewable Tablets, Cherry - Bioactive Vitamin B12 - Supports Energy Production, Brain Health & Metabolism - Gluten Free -Pink 60 Servings"
 						price={17.84}
 						image="https://images-na.ssl-images-amazon.com/images/I/71QBZPmkC0L._AC_SL1500_.jpg"
 						rating={5}
 					/>
 					<Product
-						title="Paliston Locking Carabiner"
+						title="Paliston Locking Carabiner - 25kN 5600lb Climbing Carabiner Screw Gate D Shape Carabiner"
 						price={32.99}
 						image="https://images-na.ssl-images-amazon.com/images/I/61CxSSWyqPL._AC_SL1001_.jpg"
 						rating={4}
@@ -50,7 +50,7 @@ function Home() {
 
 				<div className="home__row">
 					<Product
-						title="Canon TS9521C All-In-One Wireless Crafting Photo Printer"
+						title="Canon TS9521C All-In-One Wireless Crafting Photo Printer, 12X12 Printing, White, Amazon Dash Replenishment Ready"
 						price={318.0}
 						image="https://images-na.ssl-images-amazon.com/images/I/81fzXUUs6bL._AC_SL1500_.jpg"
 						rating={5}
