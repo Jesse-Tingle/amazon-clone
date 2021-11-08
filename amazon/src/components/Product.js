@@ -1,23 +1,23 @@
 import React from "react"
-import { useStateValue } from "../context/StateProvider.js";
+import { useStateValue } from "../context/StateProvider.js"
 import "../css/Product.css"
 
 function Product({ id, title, image, price, rating }) {
-	const [{ cart }, dispatch] = useStateValue();
+	const [{ basket }, dispatch] = useStateValue()
 
-	const addToCart = () => {
+	const addToBasket = () => {
 		// dispatch the item into the data layer
 		dispatch({
-		  type: "ADD_TO_CART",
-		  item: {
-			id: id,
-			title: title,
-			image: image,
-			price: price,
-			rating: rating,
-		  },
-		});
-	  };
+			type: "ADD_TO_BASKET",
+			item: {
+				id: id,
+				title: title,
+				image: image,
+				price: price,
+				rating: rating,
+			},
+		})
+	}
 
 	return (
 		<div className="product">
@@ -31,12 +31,14 @@ function Product({ id, title, image, price, rating }) {
 					{Array(rating)
 						.fill()
 						.map((_, i) => (
-							<p>⭐</p>
+							<p>🌟</p>
 						))}
 				</div>
 			</div>
+
 			<img src={image} alt="" />
-			<button onClick={addToCart}>Add to Cart</button>
+
+			<button onClick={addToBasket}>Add to Basket</button>
 		</div>
 	)
 }
